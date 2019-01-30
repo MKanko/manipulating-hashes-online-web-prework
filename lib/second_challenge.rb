@@ -12,7 +12,7 @@ def second_challenge
   
   groceries.each do |type, data|
 
-    groceries.values
+    type.values
 #binding.pry
   end  
 
