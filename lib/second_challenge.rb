@@ -8,14 +8,8 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+  groceries.each do |types, item|  
   
-   
-
-    groceries.values.flatten 
-#binding.pry
-  
-
-  
+   groceries.values.flatten 
 
 end
